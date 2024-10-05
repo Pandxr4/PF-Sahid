@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f3a023;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4d4d4d;
+}
+.logoSize{
+    width: 40px;
+    border-radius: 10px;
+}
+.color{
+    background-color: #3F448C;
+}
+.color2{
+    background-color: #3F448C;
+}
+.navbar-nav .nav-link,
+.navbar-brand,
+.navbar-toggler{
+    color: #dcdcdc;
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus,
+.navbar-brand:hover,
+.navbar-brand:focus,
+.navbar-toggler:hover,
+.navbar-toggler:focus{
+    color: #ffffff;
+}
+.dropdown-menu .dropdown-item {
+    color: #dcdcdc;
+}
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+    color: #ffffff;
+}
+/* Hover en el menú desplegable */
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+    background-color: #3F448C; /* El color de fondo de la barra de navegación */
+    color: #ffffff; /* El color de las letras al hacer hover */
+}
+/* Estilizar el botón de "Buscar" */
+.btn-outline-success {
+    color: #dcdcdc; /* Letras grises */
+    border-color: #28a745; /* Color del borde verde success de Bootstrap */
+}
+.btn-outline-success:hover,
+.btn-outline-success:focus {
+    background-color: #28a745; /* Fondo verde success de Bootstrap al hacer hover */
+    color: #dcdcdc; /* Letras grises al hacer hover */
+    border-color: #28a745; /* Mantener el borde verde success de Bootstrap al hacer hover */
+}
+/* Contenedor flex */
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px; /* Añadir espacio entre tarjetas */
+}
+
+/* Tarjetas responsivas */
+.card {
+    flex: 1 1 calc(33.333% - 40px); /* 3 tarjetas por fila con espacio de 20px entre ellas */
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .card {
+        flex: 1 1 calc(50% - 40px); /* 2 tarjetas por fila en pantallas medianas */
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        flex: 1 1 100%; /* 1 tarjeta por fila en pantallas pequeñas */
+    }
+}
+/* Estilos del formulario de contacto */
+form {
+    width: 500px;
+    margin: 10px auto;
+    border-color: #3F448C solid;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #3F448C;
+    color: #dcdcdc;
+}
+/* Hacer responsive */
+@media (max-width: 500px) {
+    form {
+        width: 90%;
+    }
+}
+
+@media (max-width: 500px) {
+    form {
+        width: 100%;
+    }
+}
+h2{
+    text-align: center;
+}
+.logoDown{
+    text-align: center;
+}
+/* Contenedor flex para las cards de About Us*/
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Tarjetas responsivas */
+.card {
+    flex: 1 1 calc(33.333% - 40px); /* 3 tarjetas por fila con espacio de 20px entre ellas */
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .card {
+        flex: 1 1 calc(50% - 40px); /* 2 tarjetas por fila en pantallas medianas */
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        flex: 1 1 100%; /* 1 tarjeta por fila en pantallas pequeñas */
+    }
+}
+.accordion-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px auto;
+    border: 1px solid #3F448C;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #3F448C;
+    color: #dcdcdc;
+}
+
+.accordion-button {
+    color: #dcdcdc;
+    background-color: #3F448C;
+}
+.accordion-button:not(.collapsed) {
+    color: #ffffff;
+    background-color: #3F448C;
+}
+.accordion-body {
+    background-color: #ffffff;
+    color: #3F448C;
+}
+
+/* Hacer responsive */
+@media (max-width: 768px) {
+    .accordion-container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 576px) {
+    .accordion-container {
+        width: 100%;
+    }
+}
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.carousel {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+/* Centrar contenido en el main */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+main section {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+footer {
+    background-color: #3F448C; /* Mismo color que la barra de navegación */
+    color: #ffffff; /* Color del texto en el footer */
+    padding: 20px;
+    text-align: center;
+}
+.video-card {
+    width: 100%;
+    max-width: 400px; /* Ajusta este valor según tus necesidades */
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #4d4d4d;
+}
+
+.video-card iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+}
