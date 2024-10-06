@@ -36,7 +36,7 @@ body {
 .navbar-brand:focus,
 .navbar-toggler:hover,
 .navbar-toggler:focus {
-  color: #ffffff;
+  color: #dcdcdc;
 }
 
 .dropdown-menu .dropdown-item {
@@ -45,7 +45,7 @@ body {
 
 .dropdown-menu .dropdown-item:hover,
 .dropdown-menu .dropdown-item:focus {
-  color: #ffffff;
+  color: #dcdcdc;
 }
 
 /* Hover en el menú desplegable */

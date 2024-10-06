@@ -1,27 +1,28 @@
+@import "var";
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    background-color: #f3a023;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #4d4d4d;
+    background-color: $color-secundario;
+    font-family: $fuente-principal;
+    color: $color-texto;
 }
 .logoSize{
     width: 40px;
     border-radius: 10px;
 }
 .color{
-    background-color: #3F448C;
+    background-color: $color-primario;
 }
 .color2{
-    background-color: #3F448C;
+    background-color: $color-primario;
 }
 .navbar-nav .nav-link,
 .navbar-brand,
 .navbar-toggler{
-    color: #dcdcdc;
+    color: $color-texto2;
 }
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link:focus,
@@ -29,14 +30,14 @@ body{
 .navbar-brand:focus,
 .navbar-toggler:hover,
 .navbar-toggler:focus{
-    color: #ffffff;
+    color: $color-texto2;
 }
 .dropdown-menu .dropdown-item {
-    color: #dcdcdc;
+    color: $color-texto2;
 }
 .dropdown-menu .dropdown-item:hover,
 .dropdown-menu .dropdown-item:focus {
-    color: #ffffff;
+    color: $color-texto2;
 }
 /* Hover en el menú desplegable */
 .dropdown-menu .dropdown-item:hover,
@@ -47,7 +48,7 @@ body{
 /* Estilizar el botón de "Buscar" */
 .btn-outline-success {
     color: #dcdcdc; /* Letras grises */
-    border-color: #28a745; /* Color del borde verde success de Bootstrap */
+    border-color: $color-terciario; /* Color del borde verde success de Bootstrap */
 }
 .btn-outline-success:hover,
 .btn-outline-success:focus {
